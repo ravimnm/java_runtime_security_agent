@@ -116,6 +116,8 @@ java -javaagent:target/java-runtime-security-agent.jar -jar your-app.jar
 ##Blocked Execution
 [SECURITY] Blocked command execution: /bin/sh -c ls
 Exception in thread "main" java.lang.SecurityException: Blocked by JRSA policy
+
+```
 ##Current Limitations
 
 Limited API coverage (focused on core high-risk operations)
